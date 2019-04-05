@@ -45,9 +45,7 @@ h2 {
     background-color: grey;
 }
 
-.form-control {
-    width:500px;
-}
+
 /*xs*/
 
 @media(min-width:0px) {
@@ -61,6 +59,9 @@ h2 {
     h3{
         font-size:20px;
     }
+    .form-control {
+    width:150px;
+}
 }
 /*sm*/
 
@@ -74,6 +75,9 @@ h2 {
     h3 {
         font-size: 30px;
     }
+    .form-control {
+    width:350px;
+}
 }
 
 /*lg*/
@@ -82,5 +86,8 @@ h2 {
     h1 {
         font-size: 60px;
     }
+    .form-control {
+    width:500px;
+}
 
 }
