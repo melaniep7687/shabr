@@ -1,12 +1,13 @@
-head, body {
+head,
+body {
     width: 100%;
     height: 100%;
 }
 
 nav {
     background: linear-gradient( rgba(0, 0, 0, 0.6),
-        rgba(0, 0, 0, 0.1)),
-        url('img/balloon-3.jpg') no-repeat center;
+    rgba(0, 0, 0, 0.1)),
+    url('img/balloon-3.jpg') no-repeat center;
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -15,8 +16,8 @@ nav {
 }
 
 .text-vertical-center {
-        text-align: center;
-        color: white;
+    text-align: center;
+    color: white;
 }
 
 #title {
@@ -35,7 +36,8 @@ nav {
     padding: 20px;
 }
 
-h1, h2 {
+h1,
+h2 {
     text-align: center;
 }
 
@@ -43,5 +45,42 @@ h1, h2 {
     background-color: grey;
 }
 
+.form-control {
+    width:500px;
+}
+/*xs*/
 
+@media(min-width:0px) {
+    h1 {
+        font-size: 40px;
+    }
 
+    h2 {
+        font-size: 20px;
+    }
+    h3{
+        font-size:20px;
+    }
+}
+/*sm*/
+
+@media(min-width:768px) {
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+}
+
+/*lg*/
+
+@media(min-width: 1200px) {
+    h1 {
+        font-size: 60px;
+    }
+
+}
