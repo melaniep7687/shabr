@@ -58,16 +58,18 @@ body > nav > div.container-fluid > div.navbar-header > span {
 /*xs*/
 @media(min-width:0px) {
     h1 {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     h2 {
-        font-size: 20px;
+        font-size: 10px;
     }
+    
     h3{
         font-size:20px;
     }
-    .form-control {
+    
+.form-control {
     width:150px;
 }
 }
