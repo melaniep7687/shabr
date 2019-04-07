@@ -1,12 +1,19 @@
-head, body {
+head,
+body {
     width: 100%;
     height: 100%;
 }
 
 nav {
+<<<<<<< HEAD
     background: linear-gradient( rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.1)),
         url('img/balloon-3.jpg') no-repeat center;
+=======
+    background: linear-gradient( rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.1)),
+    url('img/balloon-3.jpg') no-repeat center;
+>>>>>>> c93d55a42f3f07a08880581e8067f2511c12e148
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -15,8 +22,8 @@ nav {
 }
 
 .text-vertical-center {
-        text-align: center;
-        color: white;
+    text-align: center;
+    color: white;
 }
 
 #title {
@@ -35,7 +42,8 @@ nav {
     padding: 30px;
 }
 
-h1, h2 {
+h1,
+h2 {
     text-align: center;
 }
 
@@ -47,6 +55,51 @@ h1, h2 {
     color: white;
 }
 
+
 body > nav > div.container-fluid > div.navbar-header > span {
     color:white;
+}
+
+/*xs*/
+@media(min-width:0px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+    h3{
+        font-size:20px;
+    }
+    .form-control {
+    width:150px;
+}
+}
+
+/*sm*/
+@media(min-width:768px) {
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    .form-control {
+    width:350px;
+}
+}
+
+/*lg*/
+@media(min-width: 1200px) {
+    h1 {
+        font-size: 60px;
+    }
+    .form-control {
+    width:500px;
+}
+
 }
