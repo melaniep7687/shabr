@@ -4,7 +4,7 @@ head, body {
 }
 
 nav {
-    background: linear-gradient( rgba(0, 0, 0, 0.6),
+    background: linear-gradient( rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.1)),
         url('img/balloon-3.jpg') no-repeat center;
     background-size: cover;
@@ -43,5 +43,10 @@ h1, h2 {
     background-color: grey;
 }
 
+#bs-example-navbar-collapse-1 > ul > li.nav-item > a {
+    color: white;
+}
 
-
+body > nav > div.container-fluid > div.navbar-header > span {
+    color:white;
+}
