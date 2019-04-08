@@ -20,6 +20,15 @@
     <script src="script.js"></script>
 </head>
 
+<script>
+    $(function() {
+        //my own jQuery/javascript
+        $('.btn-warning').click(function() {
+            $('#response').html('Thanks for putting in your email! We will contact you with all of our details and discounts.')
+        });
+        
+      });
+</script>
 
 <body>
     <nav class="navbar navbar-default">
@@ -191,17 +200,18 @@
                 <form>
                     <div class="form-group">
                         <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        <input type="email" class="form-control" id="email-input" aria-describedby="emailHelp" placeholder="Enter email">
                     </div>
                     <div class="form-group form-check">
-                        <input type="checkbox" class="form-check-input" id="Check1">
-                        <label class="form-check-label" for="Check1">Yes, I would like to recive email notifications on special discounts</label>
+                        <input type="checkbox" class="form-check-input" id="Check">
+                        <label class="form-check-label" for="Check">Yes, I would like to recive email notifications on special discounts</label>
                     </div>
                     <button type="submit" class="btn btn-warning btn-md">Submit</button>
                 </form>
+                <h3 id="response"></h3>
             </div>
             <div class="col-sm-6">
-                <h3 class="text-center">Address <br>SHABR, Inc. <br>1234 Shabr Road <br>Somewhere, OT 80013 <br>Phone(555) 555-1234</h3>
+                <h3 class="text-center">Address <br>SHABR, Inc. <br>1234 Shabr Road Somewhere, OT 80013 <br>Phone(555) 555-1234</h3>
             </div>
         </div>
         <br><br><br>
