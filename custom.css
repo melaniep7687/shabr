@@ -69,9 +69,9 @@ body > nav > div.container-fluid > div.navbar-header > span {
         font-size:20px;
     }
     
-.form-control {
+    .form-control {
     width:150px;
-}
+    }
 }
 
 /*sm*/
@@ -87,7 +87,7 @@ body > nav > div.container-fluid > div.navbar-header > span {
     }
     .form-control {
     width:350px;
-}
+    }
 }
 
 /*lg*/
@@ -97,5 +97,5 @@ body > nav > div.container-fluid > div.navbar-header > span {
     }
     .form-control {
     width:500px;
-}
+    }
 }
